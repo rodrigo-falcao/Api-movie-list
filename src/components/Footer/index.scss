@@ -42,3 +42,21 @@ li {
     }
     
 }
+
+@media (max-width: 767px) {
+    footer {
+        .FooterText {
+            font-size: 15px;
+
+            &--Name {
+                font-size: 15px;
+                padding-top: 0;
+            }
+        }
+    }
+
+    .imgFooter {
+        width: 30px;
+        height: 30px;
+    }
+}
