@@ -22,8 +22,4 @@ Feito como exercícios e algumas coisas a mais para prática.
 </p>
 
 ## Contribuição
-<<<<<<< HEAD
 Agradeço desde já qualquer contribuição para o projeto, qualquer dica é muito bem vinda. 
-=======
-Agradeço desde já qualquer contribuição para o projeto, qualquer dica é muito bem vinda. 
->>>>>>> 265cd1e5b55e8fb5cf3fa4821e64a92d08c3b7ff
