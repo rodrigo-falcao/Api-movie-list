@@ -16,7 +16,7 @@ const Header = (props) => {
         <header>
             <div className='Header'>
                 <a href='/' className='Header__Link'>
-                Inicio
+                Inicio 
                 </a>
                 <form onSubmit={handleSubmit}>
                     <input type="text" placeholder='Pesquisa por filmes' />
