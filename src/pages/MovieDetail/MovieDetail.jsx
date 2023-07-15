@@ -59,7 +59,7 @@ const MovieDetail = () => {
                                 <li>
                                     <img className='imgList' 
                                     src={`https://image.tmdb.org/t/p/w1280${comp.logo_path}`} 
-                                    alt="" 
+                                    alt="{movie.title}" 
                                     />
                                 </li>
                             ))}
