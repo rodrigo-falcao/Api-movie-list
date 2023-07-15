@@ -1,0 +1,52 @@
+Header {
+    background-color: #1d1d1d;
+    padding: 30px 20px;
+
+    .Header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1440px;
+        margin: 0 auto;
+
+        &__Link {
+            color: white;
+            text-decoration: none;
+            font-size: 35px;
+        }
+    }
+
+    form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    input {
+        padding: 0.5rem 1rem;
+        border-radius: 15px;
+        border: none;
+        width: 200px;
+        height: 20px;
+        text-align: center;
+    }
+
+    input:focus {
+        border: none;
+        outline: none;
+    }
+
+    @media (max-width: 767px) {
+        .Header {
+            padding: 0 20px;
+
+            &__Link {
+                font-size: 20px;
+            }
+        }
+
+        input {
+            width: 150px;
+        }
+    }
+}

@@ -1,0 +1,13 @@
+.Home {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
+
+    > div {
+        margin: 15px;
+        max-width: 400px;
+    }
+}

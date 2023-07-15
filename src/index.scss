@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+@import "./pages/Home/index.scss";
+@import "./pages/MovieDetail/index.scss";
+@import "./components/Header/index.scss";
+@import "./components/MovieCard/index.scss";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(167, 160, 160);;
+}
+
+body,html {
+    height: 100%;
+    background-color: rgb(48, 48, 48);
+}
+
