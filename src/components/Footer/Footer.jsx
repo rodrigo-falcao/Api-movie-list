@@ -35,7 +35,9 @@ const Footer = () => {
                 />
             </li>
         </ul>
-        <p className='FooterText FooterText--Name'>Desenvolvido por Rodrigo Falcão ®</p>
+        <p className='FooterText FooterText--Name'>
+            Desenvolvido por Rodrigo Falcão ®
+        </p>
     </footer>
   )
 }

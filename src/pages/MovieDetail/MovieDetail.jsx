@@ -54,7 +54,7 @@ const MovieDetail = () => {
                         <ul>
                             {movie.production_companies &&
                             movie.production_companies
-                            .filter((comp) => comp && comp.logo_path) // Filtra os objetos que não são nulos
+                            .filter((comp) => comp && comp.logo_path) // Filtra os objetos que são nulos
                             .map((comp) => (
                                 <li>
                                     <img className='imgList' 

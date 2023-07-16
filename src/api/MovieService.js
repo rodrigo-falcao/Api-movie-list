@@ -18,18 +18,3 @@ export class MovieService {
         return axios(withBaseUrl("search/movie")+ `&query=${movie}`);
     }
 }
-
-// R.E.S.T. >> Pesquisar sobre
-
-// themoviedb // -> api.themoviedb.org/3/
-//   - movie  // api.themoviedb.org/3/movie/
-//     - now playing // api.themoviedb.org/3/movie/now_playing
-//     - popular // api.themoviedb.org/3/movie/popular
-//     - detail  //  api.themoviedb.org/3/movie/:id/
-//   - search  // api.themoviedb.org/3/search/
-//     - movie  // api.themoviedb.org/3/search/movie
-//         - age  //  api.themoviedb.org/3/search/movie/age/
-//         - gender  //  api.themoviedb.org/3/search/movie/gender/
-//     - user
-//   - discover
-//   - authentication
